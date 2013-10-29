@@ -52,8 +52,4 @@ function check_addrs() {
     }
 }
 
-window.setTimeout(function(e) {
-    check_addrs();
-    mhtb = document.getElementById('MsgHeadersToolbar');
-    mhtb.oninput = function() { check_addrs(); };
-}, 1000);
+window.setInterval(function(e) { check_addrs(); }, 1000);
