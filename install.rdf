@@ -4,10 +4,10 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>mailwarn@danplanet.com</em:id>
-    <em:name>Mail Warn</em:name>
-    <em:version>1.0.1</em:version>
-    <em:creator>dansmith</em:creator>
+    <em:id>hea@danplanet.com</em:id>
+    <em:name>Highlight External Addresses</em:name>
+    <em:version>1.0.2</em:version>
+    <em:creator>Dan Smith</em:creator>
    
     <em:targetApplication>
       <Description>

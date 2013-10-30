@@ -1,4 +1,4 @@
-/* Copyright 2013 Dan Smith <mailwarn+source@danplanet.com> */
+/* Copyright 2013 Dan Smith <hea+source@danplanet.com> */
 
 function is_addressee(element) {
     if (!element.id)

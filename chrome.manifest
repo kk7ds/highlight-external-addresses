@@ -1,2 +1,2 @@
-content mailwarn chrome/content/
-overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://mailwarn/content/compose.xul
+content hea chrome/content/
+overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://hea/content/compose.xul

@@ -8,4 +8,7 @@ VERSION = $(shell echo $(VERSION_MAJ).$(VERSION_MIN).$(VERSION_REV_NEXT))
 all:
 	git diff --quiet
 	sed -ri 's/$(VERSION_PREV)/$(VERSION)/' install.rdf
-	zip mailwarn-$(VERSION).xpi `git ls-tree --name-only -r HEAD | grep -v Makefile`
+	zip highlight-external-addresses-$(VERSION).xpi `git ls-tree --name-only -r HEAD | grep -v Makefile`
+
+clean:
+	rm -f $$(find . -name '*~')
